@@ -3,7 +3,7 @@
   "variables": {
       "cloud_token": "{{ env `ATLAS_TOKEN` }}",
       "alpine_version": "3.7",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "disk_size": "40960",
       "memory": "1024",
       "cpus": "1"
