@@ -3,8 +3,8 @@
   "variables": {
       "cloud_token": "{{ env `ATLAS_TOKEN` }}",
       "alpine_version": "3.7",
-      "version": "1.0.1",
-      "disk_size": "40960",
+      "version": "3.7.1.0",
+      "disk_size": "131072",
       "memory": "1024",
       "cpus": "1"
   },
@@ -39,9 +39,9 @@
       "disk_size": "{{ user `disk_size` }}",
       "http_directory": "http",
 
-      "iso_urls": ["isos/alpine-vanilla-3.7.0-x86_64.iso",
-                   "http://dl-cdn.alpinelinux.org/alpine/v3.7/releases/x86_64/alpine-vanilla-3.7.0-x86_64.iso"],
-      "iso_checksum": "ffac1e6288d74b2819bdb9b264a1cab1ba6e411dd35f8190a47285ba8f8fd4f9",
+      "iso_urls": ["isos/alpine-vanilla-3.7.1-x86_64.iso",
+                   "http://dl-cdn.alpinelinux.org/alpine/v3.7/releases/x86_64/alpine-vanilla-3.7.1-x86_64.iso"],
+      "iso_checksum": "d4ed7040ff586af1ab8bf68901ef907c486e5036736bc3f07261f5dad1dad5b0",
       "iso_checksum_type": "sha256",
 
       "communicator": "ssh",
